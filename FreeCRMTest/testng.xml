@@ -5,14 +5,14 @@
 		<listener
 			class-name="com.crm.qa.extentreportlistener.ExtentReporterNG" />
 	</listeners>
-	<test thread-count="5" name="SmokeTest">
+	<test thread-count="15" name="SmokeTest">
 		<classes>
 			<class name="com.crm.qa.testcases.CloseBrowser" />
 			<class name="com.crm.qa.testcases.LeavePageTest" />
 			<class name="com.crm.qa.testcases.LoginPageTest" />
 		</classes>
 	</test> <!-- Test -->
-	<test thread-count="5" name="RegressionTest">
+	<test thread-count="15" name="RegressionTest">
 		<classes>
 			<class name="com.crm.qa.testcases.CloseBrowser" />
 			<class name="com.crm.qa.testcases.PIMPageTest" />

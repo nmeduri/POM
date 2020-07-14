@@ -4,12 +4,13 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.crm.qa.basetest.TestBase;
 import com.crm.qa.pages.DashboardPage;
 import com.crm.qa.pages.LeavePage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.util.Logs;
 
-public class LeavePageTest extends CloseBrowser {
+public class LeavePageTest extends TestBase {
 	LeavePage leavepage;
 	LoginPage loginpage;
 	DashboardPage dashboard;

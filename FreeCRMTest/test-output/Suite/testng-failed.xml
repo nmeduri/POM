@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="com.crm.qa.extentreportlistener.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="SmokeTest(failed)" parallel="methods">
+  <test thread-count="5" name="RegressionTest(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.DashboardPageTest">
+      <class name="com.crm.qa.testcases.PIMPageTest">
         <methods>
-          <include name="applyLeaveTest"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="addEmployeesTest"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.DashboardPageTest -->
-      <class name="com.crm.qa.testcases.LeavePageTest">
-        <methods>
-          <include name="assignButtonTest"/>
-          <include name="setUp"/>
-          <include name="leaveListTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.LeavePageTest -->
+      </class> <!-- com.crm.qa.testcases.PIMPageTest -->
     </classes>
-  </test> <!-- SmokeTest(failed) -->
+  </test> <!-- RegressionTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

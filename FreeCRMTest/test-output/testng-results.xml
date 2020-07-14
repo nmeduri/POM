@@ -1,45 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="51377" started-at="2020-07-13T13:31:44Z" finished-at="2020-07-13T13:32:35Z">
+  <suite name="Suite" duration-ms="219062" started-at="2020-07-14T07:55:32Z" finished-at="2020-07-14T07:59:11Z">
     <groups>
     </groups>
-    <test name="SmokeTest" duration-ms="51377" started-at="2020-07-13T13:31:44Z" finished-at="2020-07-13T13:32:35Z">
+    <test name="SmokeTest" duration-ms="104682" started-at="2020-07-14T07:55:32Z" finished-at="2020-07-14T07:57:16Z">
       <class name="com.crm.qa.testcases.LeavePageTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.crm.qa.testcases.LeavePageTest@3dd4520b]" name="beforeClass" is-config="true" duration-ms="15" started-at="2020-07-13T13:31:44Z" finished-at="2020-07-13T13:31:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LeavePageTest@3dd4520b]" name="setUp" is-config="true" duration-ms="25012" started-at="2020-07-13T13:31:44Z" finished-at="2020-07-13T13:32:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LeavePageTest@23e028a9]" name="setUp" is-config="true" duration-ms="20341" started-at="2020-07-14T07:55:32Z" finished-at="2020-07-14T07:55:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="assignButtonTest()[pri:1, instance:com.crm.qa.testcases.LeavePageTest@3dd4520b]" name="assignButtonTest" duration-ms="125" started-at="2020-07-13T13:32:09Z" finished-at="2020-07-13T13:32:09Z">
+        <test-method status="PASS" signature="assignButtonTest()[pri:1, instance:com.crm.qa.testcases.LeavePageTest@23e028a9]" name="assignButtonTest" duration-ms="95" started-at="2020-07-14T07:55:52Z" finished-at="2020-07-14T07:55:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignButtonTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LeavePageTest@3dd4520b]" name="tearDown" is-config="true" duration-ms="1133" started-at="2020-07-13T13:32:09Z" finished-at="2020-07-13T13:32:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.crm.qa.testcases.LeavePageTest@3dd4520b]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-07-13T13:32:10Z" finished-at="2020-07-13T13:32:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LeavePageTest@3dd4520b]" name="setUp" is-config="true" duration-ms="22486" started-at="2020-07-13T13:32:10Z" finished-at="2020-07-13T13:32:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LeavePageTest@23e028a9]" name="setUp" is-config="true" duration-ms="18594" started-at="2020-07-14T07:56:03Z" finished-at="2020-07-14T07:56:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="leaveListTest()[pri:2, instance:com.crm.qa.testcases.LeavePageTest@3dd4520b]" name="leaveListTest" duration-ms="1430" started-at="2020-07-13T13:32:32Z" finished-at="2020-07-13T13:32:34Z">
+        <test-method status="PASS" signature="leaveListTest()[pri:2, instance:com.crm.qa.testcases.LeavePageTest@23e028a9]" name="leaveListTest" duration-ms="1290" started-at="2020-07-14T07:56:22Z" finished-at="2020-07-14T07:56:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- leaveListTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LeavePageTest@3dd4520b]" name="tearDown" is-config="true" duration-ms="1114" started-at="2020-07-13T13:32:34Z" finished-at="2020-07-13T13:32:35Z">
+      </class> <!-- com.crm.qa.testcases.LeavePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3dd4520b]" name="setUp" is-config="true" duration-ms="10760" started-at="2020-07-14T07:55:52Z" finished-at="2020-07-14T07:56:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.LeavePageTest -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@3dd4520b]" name="validateLoginPageTitleTest" duration-ms="16" started-at="2020-07-14T07:56:03Z" finished-at="2020-07-14T07:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitleTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3dd4520b]" name="setUp" is-config="true" duration-ms="11874" started-at="2020-07-14T07:56:23Z" finished-at="2020-07-14T07:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateforgotPasswordLinkTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@3dd4520b]" name="validateforgotPasswordLinkTest" duration-ms="113" started-at="2020-07-14T07:56:35Z" finished-at="2020-07-14T07:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateforgotPasswordLinkTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3dd4520b]" name="setUp" is-config="true" duration-ms="12590" started-at="2020-07-14T07:56:35Z" finished-at="2020-07-14T07:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@3dd4520b]" name="loginTest" duration-ms="16242" started-at="2020-07-14T07:56:48Z" finished-at="2020-07-14T07:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3dd4520b]" name="setUp" is-config="true" duration-ms="12590" started-at="2020-07-14T07:57:04Z" finished-at="2020-07-14T07:57:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateImageTest()[pri:4, instance:com.crm.qa.testcases.LoginPageTest@3dd4520b]" name="validateImageTest" duration-ms="131" started-at="2020-07-14T07:57:16Z" finished-at="2020-07-14T07:57:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImageTest -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </test> <!-- SmokeTest -->
+    <test name="RegressionTest" duration-ms="114330" started-at="2020-07-14T07:57:17Z" finished-at="2020-07-14T07:59:11Z">
+      <class name="com.crm.qa.testcases.DashboardPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DashboardPageTest@711f39f9]" name="setUp" is-config="true" duration-ms="29764" started-at="2020-07-14T07:58:40Z" finished-at="2020-07-14T07:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="applyLeaveTest()[pri:1, instance:com.crm.qa.testcases.DashboardPageTest@711f39f9]" name="applyLeaveTest" duration-ms="1380" started-at="2020-07-14T07:59:09Z" finished-at="2020-07-14T07:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyLeaveTest -->
+      </class> <!-- com.crm.qa.testcases.DashboardPageTest -->
+      <class name="com.crm.qa.testcases.PIMPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.PIMPageTest@3fd7a715]" name="setUp" is-config="true" duration-ms="21442" started-at="2020-07-14T07:57:18Z" finished-at="2020-07-14T07:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addEmployeesTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.PIMPageTest@3fd7a715]" name="addEmployeesTest" duration-ms="6955" started-at="2020-07-14T07:57:39Z" data-provider="getCRMTestData" finished-at="2020-07-14T07:57:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Narendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Modi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PrimeMinister]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeesTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.PIMPageTest@3fd7a715]" name="setUp" is-config="true" duration-ms="17892" started-at="2020-07-14T07:57:46Z" finished-at="2020-07-14T07:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addEmployeesTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.PIMPageTest@3fd7a715]" name="addEmployeesTest" duration-ms="9021" started-at="2020-07-14T07:58:04Z" data-provider="getCRMTestData" finished-at="2020-07-14T07:58:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kishan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Reddy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CentralMinister]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeesTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.PIMPageTest@3fd7a715]" name="setUp" is-config="true" duration-ms="18124" started-at="2020-07-14T07:58:13Z" finished-at="2020-07-14T07:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addEmployeesTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.PIMPageTest@3fd7a715]" name="addEmployeesTest" duration-ms="8217" started-at="2020-07-14T07:58:31Z" data-provider="getCRMTestData" finished-at="2020-07-14T07:58:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Venkayya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naidu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeesTest -->
+      </class> <!-- com.crm.qa.testcases.PIMPageTest -->
+    </test> <!-- RegressionTest -->
   </suite> <!-- Suite -->
 </testng-results>

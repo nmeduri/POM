@@ -21,7 +21,7 @@ public class TestUtil extends TestBase {
 
 	public static long PAGE_LOAD_TIMEOUT = 20;
 	public static long IMPLICIT_WAIT = 10;
-	public static String TESTDATA_SHEET_PATH = "C:\\SeleniumGrid\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\testdata\\addemployee.xlsx";
+	public static String TESTDATA_SHEET_PATH ="/src/main/java/com/crm/qa/testdata/addemployee.xlsx";
 	// static Workbook book;
 	// static org.apache.poi.ss.usermodel.Sheet sheet;
 
@@ -31,8 +31,10 @@ public class TestUtil extends TestBase {
 
 	public static Object[][] getTestData(String sheetName) throws InvalidFormatException {
 		FileInputStream file = null;
+		String excelpath = System.getProperty("user.dir");
+		System.out.println("Excel Path:"+ excelpath);
 		try {
-			file = new FileInputStream(TESTDATA_SHEET_PATH);
+			file = new FileInputStream(excelpath+TESTDATA_SHEET_PATH);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
